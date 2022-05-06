@@ -14,11 +14,12 @@ html, body {
 #credit{
     color: white;
     background-color: var(--dark-color);
+    font-size: x-small;
     opacity: 0.4;
     font-style: italic;
     position: absolute;
     right: 0;
-    bottom: 0;
+    top: 0;
 }
 
 #library{
@@ -35,7 +36,7 @@ html, body {
     height:90%;
     width: 100vw;
     display: grid;
-    padding: 10px;
+    padding: 20px 10px;
     grid-template-columns: repeat(auto-fit, clamp(250px, 20%, 900px));
     grid-auto-flow: row;
     justify-content: space-around;
