@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+<body>
+    <span id="credit">Photo by Genaro Servín from Pexels</span>
+    <div id="library">
+        <div id="container"></div>
+        <div id="formbuttoncontainer">
+            <div id="form-div">
+                <form id="newform">
+                    <fieldset>
+                        <legend>Add a new book</legend>
+                        <ul>
+                            <li>
+                                <label for="newtitle">The title of your book</label>
+                                <input type="text" id="newtitle" name="newtitle" required>
+                            </li>
+                            <li><label for="newauthor">The author of your book</label>
+                                <input type="text" id="newauthor" name="newauthor" required>
+                            </li>
+                            <li><label for="newpages">The number of pages</label>
+                                <input type="number" id="newpages" name="newpages" min="1" required>
+                            </li>
+                            <li><span id="checkboxspan"><label for="newread">Select checkbox if you have read the book already</label>
+                                <input type="checkbox" id="newread" name="newread" value="bookread" required></span>
+                            </li>
+                            <li><button type="button" id="newbooksubmit">Submit</button></li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="buttonHolder"><button type="button" id="addBook">ADD BOOK</button></div>
+        </div>
+    </div>
+</body>
+<script src="javascript.js"></script>
+</html>
