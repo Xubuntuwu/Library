@@ -54,7 +54,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
 }
 .card div{
     border: 2px var(--dark-color) solid;
@@ -154,6 +154,8 @@ legend{
     border-radius: 10px;
     font-weight: bold;
     cursor:pointer;
+    display: flex;
+    align-items: center;
 }
 
 .deleteDiv button{
@@ -165,4 +167,9 @@ legend{
     border: 2px solid hsl(216, 59%, 21%);
     background-color: hsl(216, 59%, 61%);
     color: rgb(252, 252, 252);
+}
+
+#newbooksubmit{
+    display: flex;
+    align-items: center;
 }
