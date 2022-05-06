@@ -54,6 +54,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: fit-content;
     /* aspect-ratio: 1; */
 }
 .card div{

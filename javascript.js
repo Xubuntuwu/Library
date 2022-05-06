@@ -37,13 +37,13 @@ function addBookToLibrary(title, author, pages, read){
 
 
 const theCatcher = addBookToLibrary('The Catcher in the Rye', 'J.D. Saling', 300, 'not read yet');
-const LordofRings = addBookToLibrary('The Lord of the Rings', 'J.R.R. Tolkien', 400, 'not read yet');
-const HarryPotter = addBookToLibrary('Harry Potter', 'J.K Roling', 500, 'read');
-const StreetLawyer = addBookToLibrary('The Street Lawyer', 'John Grisham', 350, null);
-const Ulysses = addBookToLibrary('Ulysses', 'John Grisham', 350, null);
-const AnimalFarm = addBookToLibrary('Animal Farm', 'John Grisham', 350, null);
-const Twilight = addBookToLibrary('Twilight Saga', 'John Grisham', 350, null);
-const JuliusCaesar = addBookToLibrary('Julius Caesar', 'John Grisham', 350, null);
+// const LordofRings = addBookToLibrary('The Lord of the Rings', 'J.R.R. Tolkien', 400, 'not read yet');
+// const HarryPotter = addBookToLibrary('Harry Potter', 'J.K Roling', 500, 'read');
+// const StreetLawyer = addBookToLibrary('The Street Lawyer', 'John Grisham', 350, null);
+// const Ulysses = addBookToLibrary('Ulysses', 'John Grisham', 350, null);
+// const AnimalFarm = addBookToLibrary('Animal Farm', 'John Grisham', 350, null);
+// const Twilight = addBookToLibrary('Twilight Saga', 'John Grisham', 350, null);
+// const JuliusCaesar = addBookToLibrary('Julius Caesar', 'John Grisham', 350, null);
 
 
 
